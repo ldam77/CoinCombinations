@@ -37,21 +37,22 @@ namespace Coin
       {
         Quarters++;
         amount -= 25;
-        CalculateCombinations(amount);
+        CalculateCombinationsRecursive(amount);
       }
       else if(amount >= 10)
       {
         Dimes++;
         amount -= 10;
-        CalculateCombinations(amount);
+        CalculateCombinationsRecursive(amount);
       }
       else if(amount >= 5)
       {
         Nickels++;
         amount -= 5;
-        CalculateCombinations(amount);
+        CalculateCombinationsRecursive(amount);
       }
-      else{
+      else
+      {
         Pennies += amount;
       }
     }
@@ -75,7 +76,7 @@ namespace Coin
       Console.WriteLine("Enter an amount:");
       int amount = int.Parse(Console.ReadLine());
       CoinCombinations coins = new CoinCombinations();
-      coins.CalculateCombinations(amount);
+      coins.CalculateCombinationsRecursive(amount);
       Console.WriteLine("Quarters: " + coins.GetQuarters() + "  Dimes: " + coins.GetDimes() + "  Nickels: " + coins.GetNickels() + "  Pennies: " + coins.GetPennies());
       Console.WriteLine("Do you need to enter another amount? (Y/N)");
       string userInput = Console.ReadLine();

@@ -1,0 +1,13 @@
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinationsTests.deps.json
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinationsTests.runtimeconfig.json
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinationsTests.runtimeconfig.dev.json
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinationsTests.AssemblyInfo.cs
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinationsTests.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinationsTests.pdb
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinations.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/bin/Debug/netcoreapp1.1/CoinCombinations.pdb
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinationsTests.dll
+/Users/Guest/Desktop/CoinCombinations.Solution/CoinCombinations.Tests/obj/Debug/netcoreapp1.1/CoinCombinationsTests.pdb
