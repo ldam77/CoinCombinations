@@ -4,17 +4,14 @@ namespace Coin
 {
   public class CoinCombinations
   {
-    private int Quarters;
-    private int Dimes;
-    private int Nickels;
-    private int Pennies;
+    private int Quarters = 0;
+    private int Dimes = 0;
+    private int Nickels = 0;
+    private int Pennies = 0;
 
     public CoinCombinations()
     {
-      Quarters = 0;
-      Dimes = 0;
-      Nickels = 0;
-      Pennies = 0;
+
     }
     public int GetQuarters()
     {
@@ -33,7 +30,8 @@ namespace Coin
       return Pennies;
     }
 
-    public void CalculateCombinations(int amount)
+    // Recursive method of calculating
+    public void CalculateCombinationsRecursive(int amount)
     {
       if(amount >= 25)
       {
@@ -56,6 +54,17 @@ namespace Coin
       else{
         Pennies += amount;
       }
+    }
+
+    // Non recursive method of calculating
+    public void CalculateCombinations(int amount)
+    {
+      Quarters = amount / 25;
+      int remainder = amount % 25;
+      Dimes = remainder / 10;
+      remainder = remainder % 10;
+      Nickels = remainder / 5;
+      Pennies = remainder % 5;
     }
   }
 
